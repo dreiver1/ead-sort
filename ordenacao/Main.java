@@ -18,12 +18,12 @@ public class Main {
         NumberSet ns1000 = new NumberSet (1000);
         //NumberSet ns10000 = new NumberSet (10000);
         try (FileWriter myWriter = new FileWriter("resultado.txt")) {
-            myWriter.write("==============="+ System.lineSeparator());
-            runSet(new BubbleSort(),ns10, myWriter);
-            runSet(new BubbleSort(),ns100, myWriter);
-            runSet(new BubbleSort(),ns1000, myWriter);
-            //runSet(new BubbleSort(),ns10000, myWriter);
-            System.gc();
+            // myWriter.write("==============="+ System.lineSeparator());
+            // runSet(new BubbleSort(),ns10, myWriter);
+            // runSet(new BubbleSort(),ns100, myWriter);
+            // runSet(new BubbleSort(),ns1000, myWriter);
+            // //runSet(new BubbleSort(),ns10000, myWriter);
+            // System.gc();
 
             myWriter.write("==============="+ System.lineSeparator());
             runSet(new SelectionSort(),ns10, myWriter);
